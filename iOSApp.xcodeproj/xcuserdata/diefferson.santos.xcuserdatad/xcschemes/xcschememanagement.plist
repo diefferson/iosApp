@@ -7,22 +7,22 @@
 		<key>iOSApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E14C66F24EE01730012FA99</key>
+		<key>7A282B0924EECCEE00723185</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1E14C68524EE01790012FA99</key>
+		<key>7A282B1F24EECCF100723185</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1E14C69024EE01790012FA99</key>
+		<key>7A282B2A24EECCF100723185</key>
 		<dict>
 			<key>primary</key>
 			<true/>

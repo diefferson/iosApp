@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  iOSApp
 //
-//  Created by Diefferson Santos on 19/08/20.
-//  Copyright © 2020 Diefferson Santos. All rights reserved.
+//  Created by Diefferson Inocêncio Santos on 20/08/20.
+//  Copyright © 2020 Diefferson Inocêncio Santos. All rights reserved.
 //
 
 import UIKit

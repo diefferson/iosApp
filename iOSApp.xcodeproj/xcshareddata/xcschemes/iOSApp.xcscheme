@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E14C66F24EE01730012FA99"
-               BuildableName = "iOSApp.app"
+               BlueprintIdentifier = "7A282B0924EECCEE00723185"
+               BuildableName = "iOSApp Prod.app"
                BlueprintName = "iOSApp"
                ReferencedContainer = "container:iOSApp.xcodeproj">
             </BuildableReference>
@@ -23,7 +23,7 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Prod"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E14C68524EE01790012FA99"
+               BlueprintIdentifier = "7A282B1F24EECCF100723185"
                BuildableName = "iOSAppTests.xctest"
                BlueprintName = "iOSAppTests"
                ReferencedContainer = "container:iOSApp.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E14C69024EE01790012FA99"
+               BlueprintIdentifier = "7A282B2A24EECCF100723185"
                BuildableName = "iOSAppUITests.xctest"
                BlueprintName = "iOSAppUITests"
                ReferencedContainer = "container:iOSApp.xcodeproj">
@@ -51,7 +51,7 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Dev"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -64,15 +64,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E14C66F24EE01730012FA99"
-            BuildableName = "iOSApp.app"
+            BlueprintIdentifier = "7A282B0924EECCEE00723185"
+            BuildableName = "iOSApp Prod.app"
             BlueprintName = "iOSApp"
             ReferencedContainer = "container:iOSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Prod"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -81,18 +81,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E14C66F24EE01730012FA99"
-            BuildableName = "iOSApp.app"
+            BlueprintIdentifier = "7A282B0924EECCEE00723185"
+            BuildableName = "iOSApp Prod.app"
             BlueprintName = "iOSApp"
             ReferencedContainer = "container:iOSApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Prod">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Prod"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
