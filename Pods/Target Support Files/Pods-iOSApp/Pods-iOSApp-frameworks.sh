@@ -196,11 +196,15 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
   copy_artifacts "${ARTIFACT_LIST_FILE}"
 fi
 
-if [[ "$CONFIGURATION" == "Debug" ]]; then
+if [[ "$CONFIGURATION" == "Dev" ]]; then
   install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/engine/Flutter.framework"
   install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/App.framework"
 fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
+if [[ "$CONFIGURATION" == "Prod" ]]; then
+  install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/engine/Flutter.framework"
+  install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/App.framework"
+fi
+if [[ "$CONFIGURATION" == "Sandbox" ]]; then
   install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/engine/Flutter.framework"
   install_framework "${PODS_ROOT}/../flutter_module/.ios/Flutter/App.framework"
 fi
